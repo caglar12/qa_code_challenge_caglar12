@@ -1,0 +1,182 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-08T15:43:49.579Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11468805100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Register a user",
+        "description": "",
+        "id": "register;register-a-user",
+        "after": [
+          {
+            "result": {
+              "duration": 675251200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1707145200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens registration page",
+            "match": {
+              "location": "RegisterStepDefs.user_opens_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11298700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in registration page",
+            "match": {
+              "location": "RegisterStepDefs.user_is_in_registration_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34133600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to see the registration form with required fields",
+            "match": {
+              "location": "RegisterStepDefs.user_should_be_able_to_see_the_registration_form_with_required_fields()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2544928300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user fills the form",
+            "match": {
+              "location": "RegisterStepDefs.user_fills_the_form()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-08T15:44:06.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9449764400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Log in for a registered user",
+        "description": "",
+        "id": "register;log-in-for-a-registered-user",
+        "after": [
+          {
+            "result": {
+              "duration": 730367300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1183483300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user opens login page",
+            "match": {
+              "location": "RegisterStepDefs.user_opens_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4095654000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter email and password",
+            "match": {
+              "location": "RegisterStepDefs.user_enter_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13195100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be in dashboard page",
+            "match": {
+              "location": "RegisterStepDefs.user_should_be_in_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@register"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Register.feature",
+    "tags": [
+      {
+        "name": "@register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
